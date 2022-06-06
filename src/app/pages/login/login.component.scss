@@ -1,0 +1,15 @@
+:host .login-footer-logo {
+    width: 200px !important;
+}
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-wrapper {
+        padding: 0;
+        width: 200px;
+        height: 200px;
+    }
+}
+
