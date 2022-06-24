@@ -37,7 +37,7 @@ import {AppCalendarComponent} from './pages/app.calendar.component';
 import {AppTimelineDemoComponent} from './pages/app.timelinedemo.component';
 import {AppInvoiceComponent} from './pages/app.invoice.component';
 import {AppHelpComponent} from './pages/app.help.component';
-import {LoginComponent} from './pages/login/login.component';
+import {AppLoginComponent} from './pages/app.login.component';
 
 @NgModule({
     imports: [
@@ -83,7 +83,7 @@ import {LoginComponent} from './pages/login/login.component';
             {path: 'error', component: AppErrorComponent},
             {path: 'access', component: AppAccessdeniedComponent},
             {path: 'notfound', component: AppNotfoundComponent},
-            {path: 'login', component: LoginComponent},
+            {path: 'login', component: AppLoginComponent},
             {path: '**', redirectTo: '/notfound'},
         ], {scrollPositionRestoration: 'enabled'})
     ],
